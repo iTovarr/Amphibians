@@ -40,6 +40,6 @@ class DefaultAppContainer : AppContainer {
      * DI implementation for Amphibians repository
      */
     override val amphibiansRepository: AmphibiansRepository by lazy {
-        DefaultAppContainer.DefaultAmphibiansRepository(retrofitService)
+        DefaultAmphibiansRepository(retrofitService)
     }
 }
